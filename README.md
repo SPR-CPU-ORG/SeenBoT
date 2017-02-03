@@ -28,6 +28,10 @@
   lua MakeFile.lua
   #Enter Your ID And then "N"
   ```
+# Running
+  ```
+Just Use ./Runner ;)
+```
 # Our Team 
   - [`ReloadLife`](https://t.me/Reload_Life)
    - [`Arisharr`](https://t.me/Arisharr)
