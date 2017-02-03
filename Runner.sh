@@ -15,6 +15,6 @@ while true ; do
      tmux new-session -d -s $entry "./$entr" 
      tmux detach -s $entry 
    done 
-   echo Bots Running! 
+   echo -e "All Bots Runned it Tmux Mode ;)" 
    sleep 1800 
  done 
