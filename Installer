@@ -21,8 +21,8 @@ cd ..
 sudo luarocks install redis
 sudo service redis-server restart -y
 mv telegram-cli-1222 TGL
-chmod 777 telegram-cli-1222 
-chmod 777 anticrash.sh 
+chmod 777 TGL 
+chmod 777 Runner.sh
 echo -e "${CYAN}Installation Completed! Create a bot with [lua MakeFile.lua]${NC}" 
 echo -e " " 
 echo -e " " 
