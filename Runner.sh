@@ -1,7 +1,7 @@
  #!/bin/bash 
 while true ; do 
-  for entr in S-*.sh ; do 
-    entry="${entr/.sh/}" 
+  for entr in S-* ; do 
+    entry="${entr/}" 
     tmux kill-session -t $entry 
      rm -rf ~/.telegram-cli/$entry/data/animation/* 
      rm -rf ~/.telegram-cli/$entry/data/audio/* 
